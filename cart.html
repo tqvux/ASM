@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Giỏ hàng</title>
+</head>
+<body>
+    <header>
+        <h1>Giỏ hàng của bạn</h1>
+        <nav>
+            <a href="index.html">Sản phẩm</a>
+            <a href="cart.html">Giỏ hàng</a>
+        </nav>
+    </header>
+    <main>
+        <div id="cart-items" class="cart-items">
+            <!-- Sản phẩm trong giỏ hàng sẽ được thêm vào đây bằng JavaScript -->
+        </div>
+        <div id="cart-total" class="cart-total"></div>
+        <button id="clear-cart-btn" class="clear-cart-btn">Xóa giỏ hàng</button>
+    </main>
+    <footer>
+        <p>&copy; 2024 Shop Laptop</p>
+    </footer>
+    <script src="dist/cart.js"></script>
+    <script src="dist/cartStorage.js"></script>
+</body>
+</html>

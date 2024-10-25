@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Laptop A",
+        "description": "Mô tả cho Laptop A",
+        "price": 500,
+        "image": "laptop-a.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Laptop B",
+        "description": "Mô tả cho Laptop B",
+        "price": 600,
+        "image": "laptop-b.jpg"
+    }
+]
