@@ -3,28 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Giỏ hàng</title>
 </head>
 <body>
     <header>
-        <h1>Giỏ hàng của bạn</h1>
-        <nav>
-            <a href="index.html">Sản phẩm</a>
-            <a href="cart.html">Giỏ hàng</a>
-        </nav>
+        <h1><a href="index.html">Welcome to Our Laptop Store</a></h1>
+        <a href="cart.html">Go to Cart</a>
     </header>
-    <main>
-        <div id="cart-items" class="cart-items">
-            <!-- Sản phẩm trong giỏ hàng sẽ được thêm vào đây bằng JavaScript -->
-        </div>
-        <div id="cart-total" class="cart-total"></div>
-        <button id="clear-cart-btn" class="clear-cart-btn">Xóa giỏ hàng</button>
-    </main>
+    <br>
+    <br>
+
+    <h1 style="text-align: center;">GIỎ HÀNG</h1>
+    <main id="cart-list"></main>
     <footer>
-        <p>&copy; 2024 Shop Laptop</p>
+        <p>&copy; 2024 Laptop Store. All rights reserved.</p>
     </footer>
-    <script src="dist/cart.js"></script>
-    <script src="dist/cartStorage.js"></script>
+    
+    <script src="dist/script.js"></script>
 </body>
 </html>

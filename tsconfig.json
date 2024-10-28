@@ -1,9 +1,7 @@
 {
-  "compilerOptions": {
-      "target": "es6",
-      "module": "commonjs",
-      "outDir": "./dist",
-      "strict": true
-  },
-  "include": ["index.ts", "cart.ts"]
+    "compilerOptions": {
+        "outDir": "./dist",
+        "removeComments": true,
+        "target": "ES2023"
+    }
 }

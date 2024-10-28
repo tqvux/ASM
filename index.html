@@ -3,26 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Laptop Store</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Trang bán Laptop</title>
 </head>
 <body>
     <header>
-        <h1>Shop Laptop</h1>
-        <nav>
-            <a href="index.html">Sản phẩm</a>
-            <a href="cart.html">Giỏ hàng</a>
-        </nav>
+        <h1><a href="index.html">Welcome to Our Laptop Store</a></h1>
+        <a href="cart.html">Go to Cart</a>
     </header>
-    <main>
-        <div id="product-list" class="product-list">
-            <!-- Sản phẩm sẽ được thêm vào đây bằng JavaScript -->
-        </div>
-    </main>
+    <div class="banner">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8NDQ0NDQ0NDQ0NDQ0NDQ0NDQ8NDQ0NFREWFhURFRUYHSggGBolGxUVITEhKCk3Li4uFx8zOD8wQygtLisBCgoKDQ0NFQ8PFSsdFR0rLS0tLSsrLysrLSsrLS0rLS0rKy0rKysrKy0rLS0tLSsrKy0rKy0rKysrLSsrLSstK//AABEIAIkBbwMBEQACEQEDEQH/xAAcAAEBAQADAQEBAAAAAAAAAAABAAIDBAUGBwj/xAA/EAACAgECAgcFBAcHBQAAAAAAAQIRAwQSBWETFCExUXGBBgciMkEzgpGhIyRCUnKSsRVTYnOTssFDRFSzwv/EABoBAQEAAwEBAAAAAAAAAAAAAAABAgMEBQb/xAAoEQEAAgIBAwQCAgMBAAAAAAAAARECAxIEEzEFIUFRFEIiMmGRoXH/2gAMAwEAAhEDEQA/APmUfNvsGkFKIEikDSCkgQFEVsitIilMg0graINBWkyBsK0iDSQGrIqbFBTIKwJMDQCRSmBqyCAmwCwosCYEmBlsIgKwqAgKwCwICAAICKPnjtcZClEGgpIFASA0RSiDSIrSZFaQVpEVoDaZFaTIEK0iDSYA2BWApkUgSYoaTINIDSIpsC3AAFYE2AWBAAEBAVgAVWBAQFYEAAQHz1na4zYCmFaIGwFEVAaTCtEDZFNkG0yK1EK2RTYEiDkQVWQaTCiyBArAUwFMK1ZApkG7ALAUyK0AMAsAArArAGAANgVgVgDYFYFYBZRWQNgfPHc4iFNkUpgNkU2A2BpMilMK0QKZFNgbizFYciZGQsDaZBbgGwpTAbIGwKwpsBTIGwNWFKZBpsgEwN2BmTAzuArArArArALCqwKwICsAsCArAbArA8BM7XGQIg1YVASAdyXe0vMitw+L5e3y7TKMMp8Qk5RHmXPHR5n3YM8uccOSS/JFjVnP6yk7cI/aP9tvRZV82Nw/zGsf+5oyjpts+MWueq0R5zhxNRTp5tKnz1mmbvyU7M46PdMeGuev6eP2Kimm45MWTbTl0c1JxTdJteF9lrxXijDb0uzXjcx7M9PWaduXHCfcpnM6m0yKrC2twDuFCslK0pgKkA7iKUwHcBJkGtwpUmBpSIHcAphWrJQLFDDZQ7gKyCsCsCsAsobIKxQrArFCsUCwKwKy0PCs7HErItmwrucMwRyZJKSlJY8OfN0cHtnmePHKaxxdOm9tfibun1xszjGfDn6rblq1Tnj5cXCFrdcpS4fwjFqFCW2bjLUTUG1aTeTOo9x6v4ur6eLPqHUT+3/Hu4PZDj+Vdmg0ml5zhoJP83NmcaNceMWqer3T+8vS0vu948/n1mhw/wACjFr/AE8Mf6mfDH6a53bJ/aXfx+6/iE/tuOZUv3cSz1/7EvyLUfTGc8p8y7EPc/gl25+Ja7K/rXRK/wCdSZWLv4fdHwmPzx1WX+LUOF/6aiB6Wl93HB8SpaGMv83Nnzf75sD533kezGm0enwa7SabFp4afL0OsWDGobtJnqEpuu9wltkm/BmGzDnjOMtmnZOvZjnHw+AnFxlKMu+LcX5pnzueM45TEvrscoyiJjxIswpk0iCsBsKLAbIGwpsilSAbAbAbClMg0mQaTCmyC3AW4AbALKGyKrKKwKyCsBsCsCsAsCsCsorALA8M63EQGwrn0OqeDNizR78WSM6/eSfbH1Vr1M9eXHKJYbMYzwnGfl9R7tNYuG+0Gp4fdabXRb099kZfD0+Fx8f0cpxvxR70TcW+WyxnGZifh+1lYoCAgICA6nFtBj1emz6XMrxajDkw5F9ds4tOufaB/PmXFkxuWLN9vpsk9HqO/ty4qSl5Sg8cvVnj9dq458o+X0Ppu7nq4z5hlM4XotbiUqTAnIiqy0FMgbIGwtmwFMitWRVYFYG0yB3BTuALArAtwFYFYFYDYVWBWQNgVgVgVgFgVgVlFYHh2ddOI2A2RVYLdjiuecMPDuJYb6fh+ojpptLtajJ5sF+EaWSHM9jpM+Wuvp4HqGvjtuPEv6K4XroarT4NTid49Rhx5sb/AME4qS/qdThdoCAgICAgPyD3o8K6DiUdRFVj4niUZdnYtdp4tp+csW6PnFHN1Wvnrn7h29Bu7e6PqfZ8XZ4b6RJhWrICwGwGwpsgUyUrSYDuIqsFmwWrAUyLbVkVWBJgNgFgVgVgNgVhTYFZBWA7gWrALArKCwKwGyDxbOxxKwpsAA9HhOLrEdToXX65glDFfctVj/SYX+MXH7x19Hnxzr7cPqGvlqv5h+ie4vjfWOG5NHNvpdDkpKXZLoMrcodnKSnH7qPVeC/SgICAgICA+Z94vBpa7heeOFfrOncNXpX9VnxPcl6pSj94LE0/EHljNRyY/s80I5oLwjJXt9Hcfung9Rr4bJh9R0u3uaschZpbymSltWBqEXJ1FOXKKbMowyy8Qxyzxx8zTtLQZdu6UVjh3ueWSgq9e03Y9Jty+HNn1+jH9r/8da+dr6NdzOeYqadeOVxElMjJqwKyBTFKtxKDYoKYDZFtWCzYLVgsWCzYLVkLVhbNgVgNhVYFYFYBYLVhLVgtWBWB49nW40FNgQG8GaWOcMkHU8cozg/CUXa/NFxmpiUyxjKJiX03sjxCPDvaaDi3HScYxxnBfsrrD3wX3cqlCvpZ7mE3ES+Y2YThnOM/D93MmCAgICAgPF477VcP4cv1zWYcUq7MW7fml5Y43J/gB+DPNi1GTWz0ccnU4ayeTTSyQ6OsOfdNw7exKM1KuU1Zw9ZpnOpxj3en6d1GOvljlNQ48G3JLZCcckl2OOK8rT5uKaXqzmx6LZPn2dmfqWnHx7vT03Dsb7MmX4uyscKnO/KN0b8egx/aXLn6pnP9caehk02l00VLLsh4LJc5vyjffy7DojptOHvTly6zfsmuX+nRz8efy6bEoL+8zLt81Bf80atnV6sPbGLlu1dDu2e+c1H+Xl5ZSyS3ZZyyy8Zu0vKPcjg2dTsz+ah6mnotWrxFz/kpnM7GrArIrVgVgNhSiCsBsKrJQbFAsobIKxQNwoKYoO4C3AVkpbNgVgVgFhFZVVkRWKW1YoeSdbkVkFYDYFYHNxlSy8OxZ4Scc/DNQoqS744M8t2Of3csHXhvPU6TO8Kn4eN6jrrOMvt/Q/svxePENBpdZH/r4YTkv3cndOPpJNeh1vOeoBAeVxr2j0XD1es1eDA32qE5rpJfwwXxP0QH57xn31YE3j4Zos2rn/eZrw40v3lBJzfqogfAcd9vOK664Z9f1aEnt6voLhJ2/lbjK35OfoB1OG+yWqz/ABx0ywxm90suse6cr7dyx12vzXqB78fYjulmm9TJRfxZm3jh2Luh3JcnJoB1GHSaaoZszyyivh02niopei7Ir8uZjlnjjF5TTPDXlnNYxbq5eM5WnDTwho8f+BKWaS5y+n5nFt66I/pD0tPpuU++yaeeoq3J3KT75yblN+r/AKHBnuzz/tL1NejXq/rDVmpuaRFKAbIrSAgpsggKwEBsKrIJsCsoiCbALAUwKwKwFMBsKrICxQrKKwlqwWrALA6HQvkbuUOfjK6F8hyheMnoWOUHGV0D5DlBwk9Axzg4S7/B8G+eTTZHWPW4cmkk7+WU/s5+amos6el2xjsr7cvW6Jz0z9w+l9zXthp9DpdboeJanFperZ+lxLNOMfm+HJigu+TU4N0l+2ew+derx732aPF8Gg0+XWTdqM8l6bC3yTTm/wCVAfD8Z9u+Oa+92d6HC7/RaXHPHPa+xXW7L62kB4Gj9ntRnbnj02XPKTuWbUThjxylfzNbtzfnL0A+p4X7AZsqS1WWWz/x9Hj+Hv8Aq6p/y+oH02Pg+m4XGMugWm3diyZISeSX3n2gdLW+1OGNx00XqZr9qPZiXnLu/N+Rp2b9ev8AtLfq6bbtn+GL5/X6/V6n7TLsh9MeJuKXnLv/AAo4NnqF+2EU9XT6VEe+ybdGGj2qoqKXLx8Thy2zlNz7vSw0xhFYxTa00uRjzhnwk9WlyHODtylpZchzg7cnqsuROcLwkrTS5E5wcJaWmlyHOF4SerS5DnC8JPV5cic4OMrq75DlBxk9WfIcoOErqz5DnBwldXlyHOF4Sury5E5wcJPV5chzg4yury5DnBxkdWlyLzg4Sery5E5wcJHVpchzg4SOrS5F5wnCV1aXIc4OEnq0uQ5QcJXVpcic4XjJ6vLkOUHGV1eXIcoOMroJchyg4yOglyLyg4SuglyHKDhI6vLkOUJwldXlyHKDjK6CXIcoOMroJchyg4y4DNgtoDtIpoBUQGKpprsa7U13piJqbJiJipc0uD8O1eaeq1uXU4Mk5XkwYIOePNKleROrhbu1ff2qro9jT1uE4/ympfP9R6dsxz/hFxL0sGPhGDsxafXyS7ts8On/ABlF736szy63THzbDH07qJ+Kc2Pimix9uLg+CTTtS1Ooy53fjUrNU+o648Rbdj6Tt+ZiHbftnql2YsOiwr6bNO5Nerl/wap9S+sW7H0j7zdfN7WcRn/3k4rwx48UP/mzVPqOyfEQ3Y+k6Y8zMvL12rzamusZsufb8vSzc0vJdyNGfWbsvl04en9Ph+rhUDnmZn3l1xjEe0HaS2VFRJY0ogKRFNAa2ktTtAdpLFtLYtgtaWwlh2ixbRYtpLDtFi2ixbRYthbFtJYtosG0WKhYtpbFtAqAKAqAGigoIqAqAKAqA6CRuaCkLU0LKNC1O0gaIMTypGUYzLGcohxPWJGfblhO2GHrkO1LHvwHr0XtJ34D4gXsp+Qv7QHZPyCtcTtL321rGTtrG5tapk7axtluOoZODLuOWOdmPBe43HI2YziyjN2IWzCWyJc0cZhbNtYyWp6MWLYLWlsFlDYLKWwWUtgtKOwWtBQFh2CxbBaUnEWM7RYtosW0oGhYNosW0WUtgtKZ2lsTgLBtFgoC2lBQsW0WOlRttppUFNCyioktaaURa0JQsWkw689HuM42U1Tqtn+zEZd6WP48FcLQ78n48NLhUfAnfk/GhpcJj4E78r+NDa4VEnfk/GhqPC4+BO9LL8eHIuGonelexDa4ejHuyvZhyLQIndZdqG46FeBO6vahyR0aRj3GUa3NHTpGM5MoxbWIlsqbWMlh6Mli6MWo6MWi6ItgeMlqOjLYtgsWwWg2CxbRYnAoy8YsHRiylsBQ2hKGwotoA4iwbRYztLaLaAbQDaBbQDaUdGja1raLCogaUSK0kLVpRINKJLVpRJY0okG0grW0g0oktWlEWNqBFaUCWNKAsaUCWrSiSxpQCNqBC1sBZ2AtbAWtgLWwFjYC10YB0YLDxgsdGLUdGWwOAsG0DLiUDQBtKMtBA0UoNAoUEoNBRQQUUFAVAFC0dDabmB2gaSIpSJY0kFaSINJEGkiDaQVraQbUSK0ogbSIrSRFbRBpIDVEGkgjUUIYy1RkhoUWaFFihQaKKiUWKAqAqFAaJSsuIotbSLYcQWw4hQ4hWXEtjLQGWijLiUFAFBBRVFBFtAGgCgUKCOgbmCQGkRSgNIg0iDUQrSINog0grcSDSIrQRpEZNEGkBog2gxaRUaKhKhAEAgQEAMigCAgAgGJVhkUBWZBWWUYYAUAAyoyFQSEAMoAoCP/Z" alt="Banner Promotion">
+    </div>
+    <h2 style="text-align: center;">CÁC SẢN PHẨM</h2>
+    <main id="product-list"></main>
     <footer>
-        <p>&copy; 2024 Shop Laptop</p>
+        <p>&copy; 2024 Laptop Store. All rights reserved.</p>
     </footer>
-    <script src="dist/index.js"></script>
-    <script src="dist/cartStorage.js"></script>
+    
+    <script src="dist/script.js"></script>
 </body>
 </html>
